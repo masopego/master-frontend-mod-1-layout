@@ -26,6 +26,9 @@ To display the changes it should be sufficient to import one theme or the other 
 
 The navigation bar responds to different resolutions. Use media queries to achieve this result.
 
+![Responsive navBar desktop](/Final_Front/navBar_1.png)
+![Responsive navBar mobile](/Final_Front/navBar_2.png)
+
 ## Exercise 4: We will create a card type element with CSS Grid 📏
 
 The alignments should be done with this feature, but the html is completely open

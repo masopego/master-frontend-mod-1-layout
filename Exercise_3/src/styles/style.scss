@@ -1,0 +1,43 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  height: 75px;
+  background-color: #a37e00;
+  color: black;
+  padding: 10px;
+
+  @media screen and (max-width: 768px) {
+    & {
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+    }
+  }
+
+  .box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    background-color: #f0c01d;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #3349f0;
+    }
+
+    @media screen and (max-width: 768px) {
+      & {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+      }
+    }
+  }
+}
