@@ -32,3 +32,5 @@ The navigation bar responds to different resolutions. Use media queries to achie
 ## Exercise 4: We will create a card type element with CSS Grid 📏
 
 The alignments should be done with this feature, but the html is completely open
+
+![Card with CSS Grid](/Final_Front/card.png)
